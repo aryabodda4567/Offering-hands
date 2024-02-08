@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590692249116",
+    "firebase_url": "https://offering-hands-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "offering-hands",
+    "storage_bucket": "offering-hands.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590692249116:android:ae339803cba2e1a49339d9",
+        "android_client_info": {
+          "package_name": "com.android.offeringhands"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590692249116-308ap5qrbco1l077r030u82l0gk17lba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRh60jbpThC3RK4y20ryfZu2XqqBwdWbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590692249116-308ap5qrbco1l077r030u82l0gk17lba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

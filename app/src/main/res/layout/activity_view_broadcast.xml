@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/progressBarViewBroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Broadcast Details -->
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/simply_rounded_bold"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:text="Broadcast Name" />
+
+
+            <ImageView
+                android:id="@+id/eventImage"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/test"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-black"
+                android:textAlignment="gravity"
+                android:text="Subject: "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textFontWeight="1000"
+                android:fontFamily="monospace"
+                android:textAlignment="gravity"
+                android:layout_marginLeft="10dp"
+                android:text=" Your Subject Here"
+                android:textSize="18sp" />
+
+
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textFontWeight="900"
+                android:textAlignment="gravity"
+                android:fontFamily="sans-serif-black"
+                android:text="Description:  "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/coolvetica"
+                android:textFontWeight="900"
+                android:layout_marginLeft="18dp"
+                android:textColor="@android:color/black"
+                android:text="Description: Your Description Here"
+                android:textSize="18sp" />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textFontWeight="900"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@android:color/black"
+                android:text="Address:"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textFontWeight="900"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="18dp"
+                android:text=" Your Address Here"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textFontWeight="900"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@android:color/black"
+                android:text="Contact:"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/textViewMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="monospace"
+                android:textFontWeight="900"
+                android:layout_marginLeft="18dp"
+                android:text="Mobile number:"
+                android:textSize="18sp" />
+
+
+
+
+
+
+            <!-- Creator Details -->
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textFontWeight="900"
+                android:fontFamily="@font/simply_rounded_bold"
+                android:text="Creator details"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+
+
+            <TextView
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Creator Name: "
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textViewCreatorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="  Your Creator Name Here"
+                android:textSize="18sp" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Creator Mobile Number:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewCreatorMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dp"
+                android:text="Creator Mobile Number: Your Creator Mobile Number Here"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:text="Creator Email:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textViewCreatorEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Creator Email:"
+                android:layout_marginBottom="40dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:text="Join"
+        android:background="#7F00FF"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

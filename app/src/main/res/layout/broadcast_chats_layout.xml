@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- TextView for received messages -->
+    <TextView
+        android:id="@+id/receivedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030637"
+        android:fontFamily="@font/opensans_semibold"
+        android:textSize="18dp"
+        android:padding="24dp"
+        android:layout_marginEnd="48dp" 
+        android:layout_gravity="start"/>
+
+    <!-- TextView for sent messages -->
+    <TextView
+        android:id="@+id/sentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030637"
+        android:fontFamily="@font/opensans_semibold"
+        android:paddingRight="24dp"
+        android:textSize="18dp"
+        android:layout_marginStart="48dp"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
