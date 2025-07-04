@@ -30,6 +30,4 @@ Offering-hands is an Android application designed to facilitate community suppor
 This project is for Android devices. Clone and open in Android Studio, configure Firebase, and run on your device.
 
 ---
-
-> **Note:**  
-> The project’s README and code indicate that it is a complete mobile solution for creating and sharing help-oriented community events, with chat and media support.
+ 
